@@ -4,16 +4,12 @@ const menuBrand = document.querySelector('.menu__brand');
 const categoriesTitle = document.querySelector('.categories');
 const sideBar = document.querySelector('.sidebar');
 const optionItem = document.querySelectorAll(".options__item__text");
-const optionItemLi = document.querySelectorAll('.options__item');
 
 menuButton.addEventListener('click', function(){
     menuElement.classList.toggle('hide-item-element');
     menuBrand.classList.toggle('hide-element')
     categoriesTitle.classList.toggle('hide-element');
     sideBar.classList.toggle('active');
-    optionItemLi.forEach((item) => {
-        item.classList.toggle('hide-item-element');
-    })
     optionItem.forEach((item) => {
         item.classList.toggle('hide-element');
     })

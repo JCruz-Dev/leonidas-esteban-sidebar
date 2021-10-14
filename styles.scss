@@ -89,12 +89,6 @@ ul {
     display: none;
     user-select: none;
 }
-.menu-shrink {
-    padding-left: 0;
-}
-.hide-item-element {
-    padding-right: 0;
-}
 .options__item__img {
     display: block;
     padding-left: 0.1rem;
@@ -124,6 +118,8 @@ ul {
 
 .categories {
     font-size: 0.625rem;
-    padding: 1rem 1rem 0.5rem;
+    padding: 1rem 1.2rem 0.5rem;
     text-transform: uppercase;
+    letter-spacing: 0.15em;
+    line-height: 1.5;
 }
