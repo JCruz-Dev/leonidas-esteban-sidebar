@@ -1,0 +1,14 @@
+{
+  "name": "leonidas-esteban-sidebar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:JCruz-Dev/leonidas-esteban-sidebar.git",
+  "author": "Juan Carlos Cruz <juancarloscruz278@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "parcel index.html"
+  },
+  "devDependencies": {
+    "sass": "^1.35.1"
+  }
+}
