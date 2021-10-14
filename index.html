@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.scss" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&display=swap"
+            rel="stylesheet"
+        />
+        <title>Sidebar Project</title>
+    </head>
+    <body>
+        <aside class="sidebar">
+            <nav>
+                <div class="menu">
+                    <button class="menu__button" id="menu-button">
+                        <img src="./assets/Menu.svg" alt="menu icon" />
+                    </button>
+                    <div class="menu__brand">
+                        <img src="./assets/Logo.png" alt="" srcset="" />
+                        <p>No te rindas</p>
+                    </div>
+                </div>
+                <ul class="options">
+                    <div class="options__wrapper">
+                        <li class="options__item">
+                            <img
+                                src="./assets/archive.svg"
+                                alt="recibidos"
+                                class="options__item__img"
+                            />
+                            <span class="options__item__text">Recibidos</span>
+                        </li>
+                        <li class="options__item">
+                            <img
+                                src="./assets/star.svg"
+                                alt="recibidos"
+                                class="options__item__img"
+                            />
+                            <span class="options__item__text">Destacados</span>
+                        </li>
+                        <li class="options__item">
+                            <img
+                                src="./assets/clock.svg"
+                                alt="recibidos"
+                                class="options__item__img"
+                            />
+                            <span class="options__item__text">Pospuestos</span>
+                        </li>
+                        <li class="options__item">
+                            <img
+                                src="./assets/send.svg"
+                                alt="recibidos"
+                                class="options__item__img"
+                            />
+                            <span class="options__item__text">Enviados</span>
+                        </li>
+                    </div>
+                </ul>
+                <h2 class="categories">Categorias</h2>
+                <ul class="options">
+                    <div class="options__wrapper">
+                        <li class="options__item">
+                            <img
+                                src="./assets/mail.svg"
+                                alt="recibidos"
+                                class="options__item__img"
+                            />
+                            <span class="options__item__text">Todos</span>
+                        </li>
+                        <li class="options__item">
+                            <img
+                                src="./assets/trash-2.svg"
+                                alt="recibidos"
+                                class="options__item__img"
+                            />
+                            <span class="options__item__text">Papelera</span>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+        </aside>
+        <div class="content"></div>
+        <script src="app.js"></script>
+    </body>
+</html>
